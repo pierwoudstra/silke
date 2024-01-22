@@ -36,7 +36,6 @@ p {
 }
 
 body {
-  overflow: hidden; /* Hide scrollbars */
   font-family:Arial, Helvetica, sans-serif;
   color:black;
   font-size: 15pt;
