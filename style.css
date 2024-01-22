@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&family=Instrument+Serif:ital@0;1&family=VT323&display=swap');
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Instrument Serif', serif;
+  font-size: 28pt;
+  background-color: white;
+}
+
+a {
+  font-family:Arial, Helvetica, sans-serif;
+  color:black;
+  font-size: 15pt;
+  text-decoration: none;
+  background-color: white;
+}
+
+p {
+  font-family:Arial, Helvetica, sans-serif;
+  color:black;
+  font-size: 15pt;
+  text-decoration: none;
+  background-color: white;
+}
+
+body {
+  overflow: hidden; /* Hide scrollbars */
+  font-family:Arial, Helvetica, sans-serif;
+  color:black;
+  font-size: 15pt;
+  text-decoration: none;
+}
+
+.columns {
+  display: grid;
+  flex-wrap: wrap;
+  padding: 20px;
+
+  margin: 0rem;
+
+  grid-template-columns: 10% 40% 50%;
+  grid-gap: 20px;
+
+}
+
+.column-2 {
+  opacity: 0.75;
+  border-radius: 10px;
+  background-image: url("assets/background.png");
+  padding: 2vw;
+}
+
+.column-3 img {
+  border-radius: 10px;
+  opacity: 0.80;
+}
+
+@media screen and (max-width: 950px) {
+  .columns {
+    display: grid;
+    flex-wrap: wrap;
+    padding: 20px;
+  
+    margin: 0rem;
+  
+    grid-template-columns: 100%;
+    grid-gap: 20px;
+  }
+
+  .column-3 {
+    display: none;
+  }
+}
