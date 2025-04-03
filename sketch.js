@@ -37,16 +37,17 @@ function keyPressed() {
 }
 
 function draw() {
+  stroke(240, 220, 255);
 
-  background(100, 100, 255, 25);
+  background(100, 100, 255, 17);
 
   amt = mouseX / width;
 
   color++;
 
-  stroke((amt * 255) - 200, (amt * 255) - 200, amt * 255);
+  // stroke((amt * 255) - 200, (amt * 255) - 200, amt * 255);
 
-  // stroke(amt * 100, 0, color - 100);
+  stroke(240, 220, 255);
 
   strokeWeight(1);
 
