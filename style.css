@@ -39,16 +39,16 @@ body {
 .columns {
   display: grid;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 15px;
 
-  margin: 20px;
+  margin: 15px;
 
   grid-template-columns: 10% 40% 50%;
   /* grid-gap: 20px; */
 }
 
 .columns div {
-  padding: 20px;
+  padding: 15px;
 }
 
 .column-2 {
@@ -79,10 +79,14 @@ text-shadow: 0 0 10px blue;
     margin: 0rem;
   
     grid-template-columns: 100%;
-    grid-gap: 20px;
+    /* grid-gap: 20px; */
   }
 
-  .column-3 {
+  .column-3 img {
     display: none;
+  }
+
+  .columns div {
+    padding: 20px;
   }
 }
